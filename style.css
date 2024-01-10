@@ -346,3 +346,46 @@ footer{
     background-color: rgb(10, 102, 194);
     color: white;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        margin-bottom: 10px;
+    }
+
+    .nav-list li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+    .nav-title {
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+    .header {
+        height: 200px;
+    }
+
+    .header-title {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .header-title h1 {
+        font-size: 20px;
+    }
+
+    #skill-display {
+        font-size: 20px;
+    }
+
+    .cv-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+        border-radius: 12px;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+}
+
